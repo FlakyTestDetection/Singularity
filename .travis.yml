@@ -5,9 +5,6 @@ jdk:
 install: true
 script: mvn -B -q verify
 
-git:
-  depth: 100
-
 sudo: false
 before_install:
 - wget https://dl.dropboxusercontent.com/u/7897865/apache-maven-3.3.9.zip
